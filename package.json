@@ -1,0 +1,17 @@
+{
+  "name": "line-bot-group",
+  "version": "1.0.0",
+  "description": "LINE Bot for group chats with configurable prefix commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["line", "bot", "chatbot"],
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^9.7.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
